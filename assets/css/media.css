@@ -1,0 +1,26 @@
+@media (min-width: 768px) and (max-width: 1020px) {
+	.container {
+		background-image: url(../images/night.jpg);
+		background-size: 100%;
+		background-position: center bottom;
+		background-repeat: repeat-y;
+	}
+
+	.kitten {
+		background-image: url(../images/kitten-small.png);
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+		background-image: url(../images/dawn.png);
+		background-size: 100%;
+		background-position: center bottom;
+	}
+
+	.kitten {
+		background-size: 50%;
+		background-image: url(../images/kitten-large.png);
+
+	}	
+}
