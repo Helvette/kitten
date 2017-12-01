@@ -13,14 +13,14 @@
 
 @media (max-width: 767px) {
 	.container {
+		height: 100vh;
 		background-image: url(../images/dawn.png);
-		background-size: 100%;
+		background-size: cover;
 		background-position: center bottom;
 	}
 
 	.kitten {
 		background-size: 50%;
 		background-image: url(../images/kitten-large.png);
-
 	}	
 }
